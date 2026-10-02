@@ -11,7 +11,7 @@ Ao final, o programa deve:
     - B - 6 <= nota < 8
     - C - 4 <= nota < 6
     - D - 0 <= nota < 4
-
+> com para
 ```
 algoritmo "AnalisadorDeNotas"
 
@@ -55,6 +55,69 @@ inicio
         fimse
       fimse
     fimpara
+
+    media <- soma / quantidade
+    percA <- contA / quantidade * 100
+    percB <- contB / quantidade * 100
+    percC <- contC / quantidade * 100
+    percD <- contD / quantidade * 100
+
+    escreval("Média geral da turma: ", media:5:2)
+    escreval("Conceito A: ", percA:6:2, " %")
+    escreval("Conceito B: ", percB:6:2, " %")
+    escreval("Conceito C: ", percC:6:2, " %")
+    escreval("Conceito D: ", percD:6:2, " %")
+  fimse
+
+fimalgoritmo
+```
+
+> com quanto:
+
+```
+algoritmo "AnalisadorDeNotasEnquanto"
+var
+  nota, soma, media, percA, percB, percC, percD: real
+  quantidade, contador, contA, contB, contC, contD: inteiro
+
+inicio
+
+  soma <- 0
+  contA <- 0
+  contB <- 0
+  contC <- 0
+  contD <- 0
+
+  escreva("Digite a quantidade de alunos da turma: ")
+  leia(quantidade)
+
+  se (quantidade <= 0) entao
+    escreval("Quantidade inválida.")
+  senao
+    contador <- 1
+    enquanto contador <= quantidade faca
+      escreva("Digite a nota do aluno ", contador, ": ")
+      leia(nota)
+      soma <- soma + nota
+      se (nota >= 8) entao
+        escreval(" Conceito A")
+        contA <- contA + 1
+      senao
+        se (nota >= 6) entao
+          escreval(" Conceito B")
+          contB <- contB + 1
+        senao
+          se (nota >= 4) entao
+            escreval(" Conceito C")
+            contC <- contC + 1
+          senao
+            escreval(" Conceito D")
+            contD <- contD + 1
+          fimse
+        fimse
+      fimse
+      contador <- contador + 1
+    fimenquanto
 
     media <- soma / quantidade
     percA <- contA / quantidade * 100
