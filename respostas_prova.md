@@ -11,6 +11,9 @@ Ao final, o programa deve:
     - B - 6 <= nota < 8
     - C - 4 <= nota < 6
     - D - 0 <= nota < 4
+
+---
+
 > com para
 ```
 algoritmo "AnalisadorDeNotas"
@@ -37,15 +40,15 @@ inicio
       escreva("Digite a nota do aluno ", contador, ": ")
       leia(nota)
       soma <- soma + nota
-      se (nota >= 8) entao
+      se (nota >= 8 e nota <= 10) entao
         escreval(" Conceito A")
         contA <- contA + 1
       senao
-        se (nota >= 6) entao
+        se (nota >= 6 e nota < 8 ) entao
           escreval(" Conceito B")
           contB <- contB + 1
         senao
-          se (nota >= 4) entao
+          se (nota >= 4 e nota < 6) entao
             escreval(" Conceito C")
             contC <- contC + 1
           senao
@@ -71,6 +74,8 @@ inicio
 
 fimalgoritmo
 ```
+
+---
 
 > com quanto:
 
@@ -134,6 +139,7 @@ inicio
 
 fimalgoritmo
 ```
+---
 
 # Exercício: Positivos e negativos
 

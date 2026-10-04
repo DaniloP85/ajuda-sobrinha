@@ -1,4 +1,6 @@
-# Exercício 01
+# Estrutura de descisão
+
+## Exercício 01
 
 Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10.
 
@@ -16,7 +18,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 02
+## Exercício 02
 
 Escrever um algoritmo que leia dois valores inteiro distintos e informe qual é o maior.
 
@@ -38,7 +40,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 03
+## Exercício 03
 
 Faça um algoritmo que receba um número e diga se este número está no intervalo entre 100 e 200.
 
@@ -55,7 +57,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 04
+## Exercício 04
 
 Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção aprovado (media >= 6), Reprovado (media < 4) e IFA (media >= 4 E media < 6).
 
@@ -88,7 +90,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 05
+## Exercício 05
 
 Ler 80 números e ao final informar quantos número(s) est(á)ão no intervalo entre 10 (inclusive) e 150 (inclusive).
 
@@ -130,7 +132,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 06
+## Exercício 06
 
 Faça um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando “maior de idade” e “menor de idade” para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
 
@@ -180,7 +182,7 @@ escreva("Digite o 5a idade: ")
 Fimalgoritmo
 ```
 
-# Exercício 07 
+## Exercício 07 
 
 Escrever um algoritmo que leia o nome e o sexo de 56 pessoas e informe o nome e se ela é homem ou mulher. No final informe total de homens e de mulheres.
 
@@ -254,7 +256,7 @@ escreval("Foram contabilizados ",totalHomens," homens e ", totalMulheres," mulhe
 Fimalgoritmo
 ```
 
-# Exercício 08
+## Exercício 08
 
 Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe media de preço de custo e do preço de venda.
 
@@ -338,7 +340,7 @@ Inicio
 Fimalgoritmo
 ```
 
-# Exercício 09
+## Exercício 09
 
 Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 80, menor que 25 ou igual a 40.
 
@@ -364,7 +366,7 @@ escreva("Digite o número: ")
 Fimalgoritmo
 ```
 
-# Exercício 10
+## Exercício 10
 
 Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais imprima uma mensagem dizendo que eles são iguais.
 

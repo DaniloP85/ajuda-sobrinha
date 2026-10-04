@@ -1,4 +1,5 @@
-# Questão 1 - Aprovação de concreto
+# PARA
+## Questão 1 - Aprovação de concreto
 
 Durante o controle de qualidade de uma obra, foram coletadas medidas de resistência à compressão de 5 corpos de prova.
 
@@ -35,7 +36,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 2 - Controle de produtividade
+## Questão 2 - Controle de produtividade
 
 Uma equipe de trabalhadores produziu determinada quantidade de metros quadrados de alvenaria durante 7 dias.
 
@@ -73,7 +74,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 3 - Medição de pilares
+## Questão 3 - Medição de pilares
 
 Um engenheiro está verificando as dimensões de 10 pilares de uma construção.
 
@@ -120,7 +121,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 4 - Controle de temperatura durante a concretagem
+## Questão 4 - Controle de temperatura durante a concretagem
 
 Durante uma concretagem, a equipe registra a temperatura do concreto em 8 momentos diferentes.
 
@@ -160,7 +161,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 5 - Análise de consumo de água
+## Questão 5 - Análise de consumo de água
 
 Durante 5 dias, uma obra registrou o consumo diário de água.
 
@@ -204,7 +205,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 6 - Controle de caminhões de concreto
+## Questão 6 - Controle de caminhões de concreto
 
 Uma obra recebeu 10 caminhões de concreto.
 
@@ -258,7 +259,7 @@ fimalgoritmo
 
 ---
 
-## Questão 7 - Inspeção de materiais
+#### Questão 7 - Inspeção de materiais
 
 Durante uma inspeção, um engenheiro precisa verificar 12 lotes de materiais recebidos em uma obra.
 

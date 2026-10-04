@@ -1,4 +1,6 @@
-# Questão 1 - Aprovação de concreto
+# Enquanto
+
+## Questão 1 - Aprovação de concreto
 
 Durante o controle de qualidade de uma obra, foram coletadas medidas de resistência à compressão de 5 corpos de prova. Para cada resultado, informe **"Aprovado"** (>= 25 MPa) ou **"Reprovado"**. Ao final, mostre também a quantidade de corpos de prova aprovados.
 
@@ -29,7 +31,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 2 - Controle de produtividade
+## Questão 2 - Controle de produtividade
 
 Uma equipe produziu determinada quantidade de m² de alvenaria durante 7 dias.
 Para cada dia, informe **"Produtividade satisfatória"** (>= 20 m²) ou **"Produtividade baixa"**.
@@ -63,7 +65,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 3 - Medição de pilares
+## Questão 3 - Medição de pilares
 
 Para cada um dos 10 pilares, leia largura e altura (cm) e calcule a área = largura * altura.
 Informe **"Dentro do padrão"** (área >= 900 cm²) ou **"Verificar projeto"**.
@@ -102,7 +104,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 4 - Controle de temperatura durante a concretagem
+## Questão 4 - Controle de temperatura durante a concretagem
 
 Leia 8 temperaturas. Se estiver entre 10 °C e 30 °C, **"Temperatura adequada"**;
 caso contrário, **"Temperatura inadequada"**.
@@ -135,7 +137,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 5 - Análise de consumo de água
+## Questão 5 - Análise de consumo de água
 
 Durante 5 dias, leia o consumo diário (litros) e classifique:
 Até 5.000: **"Consumo normal"**; de 5.001 até 8.000: **"Consumo elevado"**;
@@ -174,7 +176,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 6 - Controle de caminhões de concreto
+## Questão 6 - Controle de caminhões de concreto
 
 Para cada um dos 10 caminhões, leia a quantidade transportada e a utilizada (m³).
 Calcule a sobra. **"Aproveitamento adequado"** se utilizou pelo menos 95% do transportado;
@@ -217,7 +219,7 @@ inicio
 fimalgoritmo
 ```
 
-# Questão 7 - Inspeção de materiais
+## Questão 7 - Inspeção de materiais
 
 Para cada um dos 12 lotes, leia a quantidade recebida e a prevista no pedido.
 Informe **"Quantidade correta"**, **"Quantidade inferior ao pedido"** ou **"Quantidade superior ao pedido"**.
