@@ -1,0 +1,44 @@
+# Objetos compilados
+*.o
+*.ko
+*.obj
+*.elf
+
+# Arquivos de pré-processamento e cabeçalhos pré-compilados
+*.gch
+*.pch
+
+# Bibliotecas estáticas e dinâmicas
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executáveis
+*.exe
+*.out
+*.app
+*.hex
+
+# Arquivos de depuração (Debug)
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Pastas de build comuns
+build/
+Build/
+bin/
+obj/
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
